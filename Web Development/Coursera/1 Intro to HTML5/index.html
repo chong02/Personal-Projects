@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<!--
+This file serves as a sort of notes page both on how 
+html webpages should look and any/all tags that may be used
+-->
+     
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> My First Page </title>
+        <!-- Adding a favicon (aka icon in tab) -->
+        <!-- Note: Must be a png or icon image!! -->
+        <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/202/202308.png" />
+    </head>
+    <body>
+        <main>
+            <p> This is my main code </p>
+            <!-- Testing out unordered list -->
+            <ul>
+                <li> Hello! </li>
+                <li> Hi there! </li>
+                <li> Hola! </li>
+            </ul>
+            <!-- Testing out ordered list -->
+            <ol>
+                <li> Stop </li>
+                <li> Drop </li>
+                <li> Roll! </li>
+            </ol>
+            <!-- Testing out a table -->
+            <table>
+                <caption> This is a translation table... </caption>
+                <thead>
+                    <tr>
+                        <th scope='col'> Text </th>
+                        <th scope='col'> Language </th>
+                        <th scope='col'> <em>Translation</em>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td> Hello! </td>
+                        <td> English </td>
+                        <td> <em>hello</em> </td>
+                    </tr>
+                    <tr> 
+                        <td> Bonjour! </td>
+                        <td> French </td>
+                        <td> <em>hello</em> </td>
+                    </tr>
+                    <tr>
+                        <td> Hola! </td>
+                        <td> Spanish </td>
+                        <td> <em>hello</em> </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Adding an image -->
+            <figure>
+                <img src = "https://www.pngitem.com/pimgs/m/238-2381636_happy-face-color-in-smiley-face-hd-png.png"
+                     width = "500px" 
+                     height = "100px"
+                     alt = "Happy Face! :)">
+                <!-- Here, we've harded-coded the size! -->
+                <figcaption> Test Image 1 </figcaption>
+            </figure>
+            <figure>
+                <img src = "https://www.pngitem.com/pimgs/m/238-2381636_happy-face-color-in-smiley-face-hd-png.png"
+                     width = "50%" 
+                     alt = "Happy Face! :)">
+                <!-- Here, we've left the size as a ratio! -->
+                <figcaption> Test Image 2 </figcaption>
+            </figure>
+        <!-- Note the difference between the two photos above! -->
+        <!--
+        Note: It's considered bad practice to use the width and alt
+        attributes because they are primarily used for styling
+        -->
+        <!-- The anchor (<a>) tag allows us to create a hyperlink -->
+        <a href="https://kids.niehs.nih.gov/games/riddles/jokes/fun-facts-and-trivia/index.htm"
+           target="_blank">
+            Fun facts!!!
+        </a>
+        </main>
+        <footer>
+            <p> This is my footer </p>
+        </footer>
+    </body>
+</html>
